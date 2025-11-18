@@ -1,0 +1,21 @@
+{
+    "name": "datahihi1/raknet",
+    "description": "A simple implementation of RakNet protocol in PHP for Minecraft Bedrock Edition.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Datahihi1\\RakNet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dat Duy",
+            "email": "datahihi1100@gmail.com"
+        }
+    ],
+    "require": {
+        "php":"^8",
+        "ext-sockets": "*",
+        "ext-openssl": "*"
+    }
+}
