@@ -22,7 +22,7 @@ class RakNetClient
     private int $port;
 
     /** Tài nguyên socket */
-    private $socket;
+    private \Socket $socket;
 
     /** Thời gian chờ (timeout) trong giây để nhận phản hồi */
     private int $timeoutSec = 3;
